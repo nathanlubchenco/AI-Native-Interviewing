@@ -1,0 +1,26 @@
+ You are a senior engineering hiring manager designing AI-native assessments. Given these five stages, generate one realistic interview question per stage. Each question should align with the stated measures. Output
+     exactly five labeled questions.
+
+        Assessment stages and measures:
+
+        1. Prompt-to-Prototype take-home
+           • Measures: prompt clarity; correctness & test depth; code hygiene
+
+        2. Live debugging drill
+           • Measures: hypothesis loop speed; AI usage for root cause; safety nets
+
+        3. System-design discussion
+           • Measures: depth of constraints considered; AI/ML component rationale
+
+        4. Code-review simulation
+           • Measures: critical reading speed; feedback style; risk detection
+
+        5. Behavioral & collaboration interview
+           • Measures: ownership; blameless culture; evidence of multiplying others
+
+        Format your answer as:
+
+        Stage 1 – Prompt-to-Prototype take-home
+        Example question: “…”
+
+        …through Stage 5.
