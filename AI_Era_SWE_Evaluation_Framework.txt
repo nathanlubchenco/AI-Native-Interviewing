@@ -1,0 +1,75 @@
+Below is a practical framework you can adapt for hiring, promotions, or annual reviews.  It assumes GPT‑4‑class models and newer code‑generation systems (AlphaCode 2, Gemini‑based tools, o3, etc.) are already on every candidate’s laptop—which means routine implementation work is no longer scarce.  Your goal is to measure what remains scarce: higher‑order reasoning, system stewardship, and the ability to harness AI safely and efficiently.
+
+-------------------------------------------------------------------------------
+1 · GUIDING PRINCIPLES
+-------------------------------------------------------------------------------
+| Principle                                   | Why it matters in 2025‑26 |
+|---------------------------------------------|---------------------------|
+| Shift evaluation “up the stack.”            | AlphaCode 2 already outperforms ~85 % of Codeforces contestants; what you call “hard‑algorithm” problems in classic coding interviews are becoming commodity tasks. |
+| Reward leverage over raw keystrokes.        | RealHumanEval shows linear gains in human productivity as model benchmarks improve, but also a widening gap between perceived and actual performance; engineers must prove they can translate model output into working, maintainable software. |
+| Treat AI fluency the way you once treated Git fluency. | Interviews with tool vendors predict that “developers” will generalise into “builders” who orchestrate AI pipelines rather than hand‑code boilerplate. |
+| Guard against hollow automation.            | Skill‑testing firms warn that letting either side rely on AI without structure leads to noisy signals; combine multi‑method assessment with cheat‑prevention telemetry. |
+
+-------------------------------------------------------------------------------
+2 · THREE EVALUATION AXES AND SAMPLE WEIGHTINGS
+-------------------------------------------------------------------------------
+| Axis                          | Mid‑level % | Senior % | Staff/Lead % |
+|-------------------------------|-------------|----------|--------------|
+| A. Systemic reasoning & design| 35          | 45       | 50           |
+| B. AI‑augmented implementation| 35          | 30       | 25           |
+| C. Team & product impact      | 30          | 25       | 25           |
+
+-------------------------------------------------------------------------------
+3 · CONCRETE ASSESSMENTS THAT MAP TO THE AXES
+-------------------------------------------------------------------------------
+Stage 1 – “Prompt‑to‑Prototype” take‑home (4 h cap)
+    • Build a minimal service with AI tools allowed.  Submit prompt transcript, repo link, one‑page design note.
+    • Measure: Prompt clarity, correctness & test depth, code hygiene.
+    • Rationale: Lets strong engineers amplify themselves while exposing copy‑paste naïvete.
+
+Stage 2 – Live debugging drill (45 min)
+    • Given a brittle codebase (half auto‑generated), fix a latent production bug.
+    • Measure: Hypothesis loop speed, AI usage for root cause, safety nets.
+    • Rationale: Debugging remains human‑heavy; code‑gen models are weakest here.
+
+Stage 3 – System‑design discussion (60 min)
+    • Whiteboard/Miro; AI consults allowed, but final diagram must be candidate‑authored.
+    • Measure: Depth of constraints considered, AI/ML component rationale.
+    • Rationale: Rewards architectural thinking no chatbot can yet outsource.
+
+Stage 4 – Code‑review simulation (30 min async)
+    • Review an AI‑generated pull request with subtle security flaw.
+    • Measure: Critical reading speed, feedback style, risk detection.
+    • Rationale: Mirrors real‑world day‑to‑day with AI pair‑programmers.
+
+Stage 5 – Behavioural & collaboration interview
+    • Focus on incident retros, mentoring, shipping decisions under uncertainty.
+    • Measure: Ownership, blameless culture, evidence of multiplying others.
+
+-------------------------------------------------------------------------------
+4 · INSTRUMENTATION & GUARD‑RAILS
+-------------------------------------------------------------------------------
+1. Telemetry, not surveillance – record shell commands & test runs to time‑box effort.
+2. Plagiarism ≠ AI usage – flag licence violations, not well‑prompted AI snippets.
+3. Reasoning trace – require a brief decision diary explaining prompt choices.
+4. Adaptive difficulty – benchmark exercises against frontier models monthly.
+
+-------------------------------------------------------------------------------
+5 · POSITIVE SIGNALS
+-------------------------------------------------------------------------------
+• Quickly verifies AI output with targeted tests/fuzzing.
+• Iteratively reframes prompts (“scaffold → refine → constrain”).
+• Produces small, reversible PRs even when AI offers a monolith.
+• Explains trade‑offs in business terms (latency ms → churn %).
+
+-------------------------------------------------------------------------------
+6 · COMMON ANTI‑PATTERNS
+-------------------------------------------------------------------------------
+• “Copilot stenographer” – accepts first suggestion, patches errors ad‑hoc.
+• Prompt‑abuse spirals – tweaks synonyms instead of thinking about invariants.
+• Design hand‑waviness – “the model will scale it later” without numbers.
+
+-------------------------------------------------------------------------------
+TAKE‑AWAY
+-------------------------------------------------------------------------------
+Evaluate humans for what current frontier models cannot do on autopilot—and for how gracefully they extend that frontier.
