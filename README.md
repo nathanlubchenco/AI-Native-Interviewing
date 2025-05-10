@@ -10,9 +10,8 @@ Insipred by this [o3 response](https://chatgpt.com/share/681ea2a8-3be8-8003-9c7c
 
 ## How to use
 
-Clone the repo. Install [codex-cli](https://help.openai.com/en/articles/11096431-openai-codex-cli-getting-started). Make any adjustments to the prompts as desired.
-Ask codex-cli to generate new questions and example code as needed.  Ask for exercises in a particular language. Its pretty likely that the model will add comments where the bugs
-are.  I see this as a feature so that the interviewer can easily see the problem and then when reviewing the code easily remove the comments.
+Clone the repo. Install [codex-cli](https://help.openai.com/en/articles/11096431-openai-codex-cli-getting-started). Make any adjustments to the prompts in codex.md as desired. 
+Ask codex-cli to generate new questions and example code as needed.  Ask for exercises in a particular language: default is python. Ask for the desired level: default is mid_level.  
 
 ## Improvements and suggestions welcome
 This was largely vibe coded pretty quickly, I think its more important that something like this exists at all over it being good, but it would be nice if eventually it was good too.
