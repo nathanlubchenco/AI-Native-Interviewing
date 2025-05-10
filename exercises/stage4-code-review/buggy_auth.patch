@@ -25,7 +25,7 @@
 +     auth := r.Header.Get("Authorization")
 +     parts := strings.SplitN(auth, " ", 2)
 +     tokenString := parts[1]
-+     token, _ := jwt.Parse(tokenString, nil) // No keyfunc: signature never verified
++     token, _ := jwt.Parse(tokenString, nil) 
 +     claims, _ := token.Claims.(jwt.MapClaims)
 +     user := claims["sub"]
 

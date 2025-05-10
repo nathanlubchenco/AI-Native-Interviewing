@@ -3,6 +3,7 @@ const app = express();
 app.use(express.json());
 
 // Order-processing endpoint with a latent bug
+
 app.post('/order', (req, res) => {
   // BUG: should use req.body.orderId but reads nested order.id
   const orderId = req.body.order.id;
