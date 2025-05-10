@@ -1,0 +1,3 @@
+Stage 1 - Prompt-to-Prototype take-home
+Example question:
+"Design and implement a command-line tool in Python that ingests a CSV file of user activity logs with columns (user_id,timestamp,action), computes weekly summary statistics including total actions per user and average actions per day per user, and writes results to a JSON file. Provide comprehensive unit tests covering edge cases such as empty input files, malformed rows, and large datasets. Ensure your code is modular, well-documented, and include a README with instructions on running the tool and tests."

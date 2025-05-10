@@ -1,0 +1,14 @@
+Stage 5 - Behavioral & collaboration interview
+Example questions:
+1. Tell me about a time you took end-to-end ownership of a feature. What steps did you take to ensure success? Follow-up: How did you handle setbacks?
+2. Describe how you’ve handled a situation where a teammate introduced a critical bug. What was your approach? Follow-up: How did you ensure it didn’t happen again?
+3. Can you discuss an instance where you mentored a colleague? How did you structure your guidance?
+4. Give an example of when you disagreed with a team decision. How did you navigate that discussion?
+5. Tell me about a project where you proactively improved team processes. What was the impact?
+6. Describe a time you received constructive feedback. How did you respond?
+7. Have you ever had to de-escalate a conflict? What was your strategy?
+8. Give an example of collaborating with a cross-functional team. What challenges did you face?
+9. Describe how you ensure a blameless post-mortem culture.
+10. Tell me about a time you advocated for a technical debt repayment. What was the outcome?
+11. Describe how you encourage knowledge sharing on your team.
+12. Can you share an experience where you enabled other engineers to learn or grow?

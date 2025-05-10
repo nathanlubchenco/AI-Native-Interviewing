@@ -1,0 +1,3 @@
+Stage 2 - Live debugging drill
+Example question:
+"You have 15 minutes to debug the provided Python script median_filter.py that applies a median filter to a list of integers. It currently fails on even-length lists and negative numbers. Describe your hypothesis loop, use AI-assisted debugging tools responsibly, implement fixes, and demonstrate safety nets like unit tests or logging to verify correct behavior."

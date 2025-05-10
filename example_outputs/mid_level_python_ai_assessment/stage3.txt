@@ -1,0 +1,3 @@
+Stage 3 - System-design discussion
+Example question:
+"Design a Python-based real-time log processing system that ingests JSON logs from multiple microservices, enriches them with user metadata from an external service, and writes aggregated metrics to a data warehouse. Discuss constraints around throughput, latency, fault tolerance, schema evolution, and cost. If incorporating an ML component (e.g., anomaly detection), justify your choice and where it fits in the pipeline."

@@ -1,0 +1,3 @@
+Stage 4 - Code-review simulation
+Example question:
+"Review the following Python snippet from an authentication service. Identify at least five issues related to performance, security, code readability, and robustness. Provide constructive feedback and suggest improvements. Note any missing tests or documentation."

@@ -1,9 +1,0 @@
-++ exercises/stage3-modular-js-advanced/package.json
-{
-  "name": "stage3-modular-js-advanced",
-  "version": "1.0.0",
-  "main": "main.js",
-  "scripts": {
-    "start": "node main.js"
-  }
-}
