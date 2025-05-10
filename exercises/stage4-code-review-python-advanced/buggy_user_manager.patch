@@ -1,0 +1,10 @@
+--- a/user_manager.py
++++ b/user_manager.py
+@@ def add_user(username, password):
+-    users[username] = password
+    import hashlib
+    # Hash password before storing (buggy: using MD5 without salt)
+    hashed = hashlib.md5(password).hexdigest()
+    users[username] = hashed
+    # Log plaintext password (sensitive data should not be logged)
+    print(f"Adding user {username} with password {password}")
