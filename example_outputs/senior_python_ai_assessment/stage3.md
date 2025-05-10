@@ -1,0 +1,3 @@
+Stage 3 – System-design discussion
+
+Example question: “Design a high-throughput, low-latency Python-based data ingestion system for real-time machine learning feature updates. The system should ingest 100k events per second from HTTP endpoints, enrich events with user profile data stored in Redis, write features to a fast-access store (e.g., Redis or a vector database), and archive raw events to S3. Outline the core components, library/framework choices, strategies for scalability, consistency guarantees, schema evolution, and how you would monitor and fallback in case of failures.”

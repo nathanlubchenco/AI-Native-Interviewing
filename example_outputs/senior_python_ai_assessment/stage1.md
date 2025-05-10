@@ -1,0 +1,3 @@
+Stage 1 – Prompt-to-Prototype take-home
+
+Example question: “Implement a Python CLI tool named `json2csv` that reads a JSON Lines file (`.jsonl`), transforms each record according to a user-provided mapping configuration (supports flattening nested JSON fields, renaming keys, and filtering records by field values), and writes the result to a CSV file. The tool should handle large files using streaming to minimize memory usage, allow configuration of output delimiters, and produce clear error messages for malformed input. Provide a comprehensive pytest test suite covering normal, edge, and error cases, and ensure the code follows best practices for project structure, dependency management (`requirements.txt`), documentation (README), and code hygiene (PEP8 compliance).”
